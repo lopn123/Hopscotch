@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{1698ea9c-b64b-445b-a9bc-87a84ad58a29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\CAMERA">
+      <UniqueIdentifier>{06c98779-732b-48aa-b0d2-9642635d16cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\OBJCET">
+      <UniqueIdentifier>{1232afc3-6b8b-4d54-b425-36cddba4eadf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\SCENE">
+      <UniqueIdentifier>{5c15a12e-4ac5-4223-a58e-331a8dd41042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\IMAGE">
+      <UniqueIdentifier>{ce7ab6d8-c05f-4ac6-b391-4be240eadf19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{002ce24d-b8f4-4994-a205-0b7db5aa872a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{dc69a90f-9584-451e-baf0-50a2edf49aec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object">
+      <UniqueIdentifier>{44f23201-a702-4a45-81e0-b1b72d6141b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Ui">
+      <UniqueIdentifier>{8bee93b8-29fe-45b0-b1e1-8917c18a8249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Effect">
+      <UniqueIdentifier>{e6a82f99-247f-46c9-896c-4b245c359f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{1cc2908e-f937-4112-8fa0-2e770e34ec29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Enemy">
+      <UniqueIdentifier>{89031b2c-21b4-4dbe-a0c7-ef83a50f32e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Player">
+      <UniqueIdentifier>{6ea7d569-1f6f-4a7e-8daa-109720b92b2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Enemy\Bullet">
+      <UniqueIdentifier>{c2ce7b53-6b19-4751-983b-adfa98047794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Item">
+      <UniqueIdentifier>{005c6343-de2f-4755-a924-58d704f39c4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Effect\Explosion">
+      <UniqueIdentifier>{aa277d35-b334-442f-92ba-d8b28dc0fde1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Effect\Item">
+      <UniqueIdentifier>{401d4414-b471-4011-b0e5-525a7026bd10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Effect\Enemy">
+      <UniqueIdentifier>{9d5fbb28-d64f-4884-be56-c15352e7f12a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\SOUND">
+      <UniqueIdentifier>{4b9d03a6-b5b9-4406-ad36-52204fdf9416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\WORLD">
+      <UniqueIdentifier>{a5705bd5-fe2f-463b-8b71-834c94593385}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EmptyProject.cpp" />
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>Manager\CAMERA</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>Manager\IMAGE</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Manager\OBJCET</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Manager\OBJCET</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Manager\SCENE</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Manager\SCENE</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedEnemy.cpp">
+      <Filter>Game\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalBullet.cpp">
+      <Filter>Game\Object\Enemy\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BigEnemy.cpp">
+      <Filter>Game\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashEnemy.cpp">
+      <Filter>Game\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1Boss.cpp">
+      <Filter>Game\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="TpEnemy.cpp">
+      <Filter>Game\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnBullet.cpp">
+      <Filter>Game\Object\Enemy\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="StopBullet.cpp">
+      <Filter>Game\Object\Enemy\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Hp.cpp">
+      <Filter>Game\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedItem.cpp">
+      <Filter>Game\Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="HpItem.cpp">
+      <Filter>Game\Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="InvincibleItem.cpp">
+      <Filter>Game\Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="AfterImage.cpp">
+      <Filter>Game\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreBoard.cpp">
+      <Filter>Game\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1BossExplosion.cpp">
+      <Filter>Game\Effect\Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1Explosion.cpp">
+      <Filter>Game\Effect\Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2BossExplosion.cpp">
+      <Filter>Game\Effect\Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="HpItemGetEffect.cpp">
+      <Filter>Game\Effect\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="InvinItemGetEffect.cpp">
+      <Filter>Game\Effect\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedItemGetEffect.cpp">
+      <Filter>Game\Effect\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAfterImage.cpp">
+      <Filter>Game\Effect\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyDeadEffect.cpp">
+      <Filter>Game\Effect\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="TpEffect.cpp">
+      <Filter>Game\Effect\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHit.cpp">
+      <Filter>Game\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplosionBullet.cpp">
+      <Filter>Game\Object\Enemy\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHitEffect.cpp">
+      <Filter>Game\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Manager\WORLD</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2Boss.cpp">
+      <Filter>Game\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashEffect.cpp">
+      <Filter>Game\Effect\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDeadUi.cpp">
+      <Filter>Game\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearUi.cpp">
+      <Filter>Game\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="SouondManager.cpp">
+      <Filter>Manager\SOUND</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletExplosionEffect.cpp">
+      <Filter>Game\Effect\Explosion</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="singleton.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>Manager\CAMERA</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>Manager\IMAGE</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Manager\OBJCET</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Manager\OBJCET</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Manager\SCENE</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Manager\SCENE</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedEnemy.h">
+      <Filter>Game\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalBullet.h">
+      <Filter>Game\Object\Enemy\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BigEnemy.h">
+      <Filter>Game\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashEnemy.h">
+      <Filter>Game\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1Boss.h">
+      <Filter>Game\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="TpEnemy.h">
+      <Filter>Game\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ReturnBullet.h">
+      <Filter>Game\Object\Enemy\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="StopBullet.h">
+      <Filter>Game\Object\Enemy\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Hp.h">
+      <Filter>Game\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedItem.h">
+      <Filter>Game\Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="HpItem.h">
+      <Filter>Game\Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="InvincibleItem.h">
+      <Filter>Game\Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="AfterImage.h">
+      <Filter>Game\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreBoard.h">
+      <Filter>Game\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1BossExplosion.h">
+      <Filter>Game\Effect\Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1Explosion.h">
+      <Filter>Game\Effect\Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2BossExplosion.h">
+      <Filter>Game\Effect\Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="InvinItemGetEffect.h">
+      <Filter>Game\Effect\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="HpItemGetEffect.h">
+      <Filter>Game\Effect\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedItemGetEffect.h">
+      <Filter>Game\Effect\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="TpEffect.h">
+      <Filter>Game\Effect\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAfterImage.h">
+      <Filter>Game\Effect\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyDeadEffect.h">
+      <Filter>Game\Effect\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHit.h">
+      <Filter>Game\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosionBullet.h">
+      <Filter>Game\Object\Enemy\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHitEffect.h">
+      <Filter>Game\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Manager\WORLD</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2Boss.h">
+      <Filter>Game\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashEffect.h">
+      <Filter>Game\Effect\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDeadUi.h">
+      <Filter>Game\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearUi.h">
+      <Filter>Game\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="SouondManager.h">
+      <Filter>Manager\SOUND</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletExplosionEffect.h">
+      <Filter>Game\Effect\Explosion</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="EmptyProject.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
